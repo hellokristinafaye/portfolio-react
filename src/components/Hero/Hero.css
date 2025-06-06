@@ -35,3 +35,9 @@
     font-weight: 500;
     margin-bottom: 50px; 
 }
+.hero-connect {
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, var(--orange-color) -5.09%, var(--purple-color) 106%);
+    cursor: pointer;
+}
