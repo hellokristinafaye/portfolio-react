@@ -12,6 +12,7 @@ const Navbar = () => {
               <li className="">Portfolio</li>
               <li className="">Contact</li>
           </ul>
+          <div className="nav-connect">Connect With Me</div>
       </div>
   )
 }
