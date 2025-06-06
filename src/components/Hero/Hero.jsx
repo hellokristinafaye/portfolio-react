@@ -1,9 +1,12 @@
 import React from 'react'
 import './Hero.css';
+import profile_img from '../../assets/profile_img.svg'
 
 const Hero = () => {
   return (
-    <div className="hero">Hero</div>
+    <div className="hero">
+        <img src={profile_img} alt="" className="" />      
+    </div>
   )
 }
 
