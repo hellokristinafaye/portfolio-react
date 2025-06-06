@@ -14,5 +14,5 @@
 .nav-connect {
     padding: 20px 40px;
     border-radius: 50px;
-    background: linear-gradient(267deg, var(--white-color))
+    background: linear-gradient(267deg, var(--orange-color) .36%, var(--purple-color) 102.6%)
 }
