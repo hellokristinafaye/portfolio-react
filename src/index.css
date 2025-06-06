@@ -3,7 +3,8 @@
     padding: 0;
     --background-color: #161513;
     --white-color: white;
-
+    --orange-color: #DA7C25;
+    --purple-color: #B923E1;
 }
 body {
     height: 100vh;
