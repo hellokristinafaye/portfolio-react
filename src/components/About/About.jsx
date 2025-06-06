@@ -16,6 +16,22 @@ const About = () => {
               <div className="about-left">
                   <img src={headshotLGSquare} alt="" className="" />
               </div>
+              <div className="about-right">
+                  <div className="about-para">
+                      <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius vero rerum provident earum fugiat, harum sit inventore. </p>
+                      <p className="">Nihil ad natus saepe ipsum, dolores hic nisi cum eligendi, earum libero quasi?</p>
+                  </div>
+                  <div className="about-skills">
+                      <div className="about-skill">
+                          <p className="">HTML</p>
+                          <p className="">CSS</p>
+                          <p className="">JavaScript</p>
+                          <p className="">React JS</p>
+                          <p className="">Google Fonts</p>
+                          <p className="">Tailwind CSS</p>
+                      </div>
+                  </div>
+              </div>
           </div>
 
     </div>
