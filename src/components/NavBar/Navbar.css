@@ -14,5 +14,11 @@
 .nav-connect {
     padding: 20px 40px;
     border-radius: 50px;
-    background: linear-gradient(267deg, var(--orange-color) .36%, var(--purple-color) 102.6%)
+    background: linear-gradient(267deg, var(--orange-color) .36%, var(--purple-color) 102.6%);
+    font-size: 22px;
+    cursor: pointer;
+    transition: .5s;
+}
+.nav-connect:hover {
+    transform: scale(1.05);
 }
