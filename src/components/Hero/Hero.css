@@ -9,3 +9,9 @@
     width: 18rem;
     border-radius: 50%;
 }
+.hero h1 {
+    text-align: center; 
+    width: 70%;
+    font-size: 70px;
+    font-weight: 600;
+}
