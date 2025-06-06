@@ -6,4 +6,6 @@
 }
 .hero img {
     margin-top: 150px;
+    width: 18rem;
+    border-radius: 50%;
 }
