@@ -19,11 +19,16 @@ const About = () => {
           <div className="about-para">
             <p className="">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-              vero rerum provident earum fugiat, harum sit inventore.{" "}
+              vero rerum provident earum fugiat, harum sit inventore. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Iure sunt sint
+              at natus. Debitis enim ratione numquam? Aperiam, quasi nisi.
+              Reiciendis iste sequi sunt inventore atque. Consectetur error
+              assumenda quas!{" "}
             </p>
             <p className="">
               Nihil ad natus saepe ipsum, dolores hic nisi cum eligendi, earum
-              libero quasi?
+              libero quasi? Reiciendis iste sequi sunt inventore atque.
+              Consectetur error assumenda quas!
             </p>
           </div>
           <div className="about-skills">
@@ -55,7 +60,6 @@ const About = () => {
           <h1 className="">15+</h1>
           <p className="">HAPPY CLIENTS</p>
         </div>
-              
       </div>
     </div>
   );
