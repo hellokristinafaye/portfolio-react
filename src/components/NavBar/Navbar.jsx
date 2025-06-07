@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.svg'
 import underline from '../../assets/nav_underline.svg'
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 const Navbar = () => {
@@ -14,12 +15,12 @@ const Navbar = () => {
       <img src={logo} alt="" className="" />
       <ul className="nav-menu">
         <li className="">
-          {/* <AnchorLink className="anchor-link" href="#home"> */}
+          <AnchorLink className="anchor-link" href="#home">
             <p onClick={() => setMenu("home")} className="">
               Home
             </p>
             {menu === "home" ? <img src={underline} /> : <></>}
-          {/* </AnchorLink> */}
+          </AnchorLink>
         </li>
 
         <li className="">
