@@ -3,7 +3,6 @@ import "./Contact.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import mail_icon from '../../assets/mail_icon.svg';
 import location_icon from '../../assets/location_icon.svg';
-import call_icon from '../../assets/call_icon.svg';
 
 const Contact = () => {
   return (
@@ -18,14 +17,17 @@ const Contact = () => {
             <p className="">
               I'm currently open to new work so please reach out if you're
               looking for a remote Front End or Full Stack Web Developer.
-                      </p>
-                      <div className="contact-details">
-                          <div className="contact-detail">
-                              <img src={mail_icon} alt="" className="" />
-                              <p className="">helloKristinaFaye@gmail.com</p>
-                          </div>
-                          
-                      </div>
+            </p>
+            <div className="contact-details">
+              <div className="contact-detail">
+                <img src={mail_icon} alt="" className="" />
+                <p className="">helloKristinaFaye@gmail.com</p>
+              </div>
+              <div className="contact-detail">
+                <img src={location_icon} alt="" className="" />
+                <p className="">Seattle, Washington, USA</p>
+              </div>
+            </div>
           </div>
 
           <div className="contact-right"></div>
