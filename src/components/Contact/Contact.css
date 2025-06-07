@@ -50,23 +50,26 @@
     font-size: 20px;
     line-height: 35px;
 }
-.linkedIn-link {
-    text-decoration: none;
-}
+
 .linkedIn {
     background: white;
     width: 40px;
     border-radius: 5px;
 }
-.location-detail{
-    text-decoration: none;
-}
+
 .contact-details {
     display: flex;
     flex-direction: column;
     gap: 30px;
     color: var(--lt-grey);
     font-size: 22px;
+}
+.contact-details a {
+    text-decoration: none;
+}
+.contact-details a:hover {
+    text-decoration: underline;
+    color: white;
 }
 
 .contact-detail {
