@@ -124,6 +124,8 @@
     }
     .contact-left h1 {
         font-size: 54px;
-        
+    }
+    .contact-left p {
+        font-size: 18px;
     }
 }
