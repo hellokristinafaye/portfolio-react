@@ -25,6 +25,7 @@ const onSubmit = async (event) => {
   
   if (data.success) {
     setResult("Form Submitted Successfully");
+    alert("Thanks for your message!")
     event.target.reset();
   } else {
     console.log("Error", data);
