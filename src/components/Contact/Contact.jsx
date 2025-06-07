@@ -56,11 +56,16 @@ const onSubmit = async (event) => {
             </div>
 
             {/* Linked In */}
-            <a href="" className=""></a>
-            <div className="contact-detail">
-              <img src={linkedin} alt="" className="linkedIn" />
-              <p className="">LinkedIn: Kristina Glinoga</p>
-            </div>
+            <a
+              href="https://www.linkedin.com/in/kristina-glinoga/"
+              target="_blank"
+              className="linkedIn-link"
+            >
+              <div className="contact-detail">
+                <img src={linkedin} alt="" className="linkedIn" />
+                <p className="">LinkedIn: Kristina Glinoga</p>
+              </div>
+            </a>
 
             {/* physical location */}
             <a
