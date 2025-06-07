@@ -43,3 +43,10 @@
     font-size: 20px;
     line-height: 35px;
 }
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: var(--lt-grey);
+    font-size: 22px;
+}
