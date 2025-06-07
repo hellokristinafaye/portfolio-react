@@ -42,12 +42,12 @@ const Navbar = () => {
         </li>
 
         <li className="">
-          {/* <AnchorLink className="anchor-link" offset={50} href="#contact"> */}
+          <AnchorLink className="anchor-link" offset={50} href="#contact">
             <p onClick={() => setMenu("contact")} className="">
               Contact
             </p>
             {menu === "contact" ? <img src={underline} /> : <></>}
-          {/* </AnchorLink> */}
+          </AnchorLink>
         </li>
       </ul>
       <div className="nav-connect">Connect With Me</div>
