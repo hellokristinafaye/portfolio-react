@@ -4,12 +4,15 @@
     justify-content: space-between;
     margin: 20px 170px;
 }
+.custom-logo {
+    font-weight: 400;
+}
 .custom-logo span{
     background: linear-gradient(270deg, var(--orange-color) 10%, var(--purple-color) 100%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-    
+        font-weight: 800;
 }
 .nav-menu {
     display: flex;
