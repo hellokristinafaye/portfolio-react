@@ -8,24 +8,32 @@ const Navbar = () => {
       <img src={logo} alt="" className="" />
       <ul className="nav-menu">
         <li className="">
-          <p onClick={() => setMenu("home")} className="">
-            Home
-          </p>
+          <AnchorLink>
+            <p onClick={() => setMenu("home")} className="">
+              Home
+            </p>
+          </AnchorLink>
         </li>
         <li className="">
-          <p onClick={() => setMenu("about")} className="">
-            About Me
-          </p>
+          <AnchorLink>
+            <p onClick={() => setMenu("about")} className="">
+              About Me
+            </p>
+          </AnchorLink>
         </li>
         <li className="">
-          <p onClick={() => setMenu("work")} className="">
-            Portfolio
-          </p>
+          <AnchorLink>
+            <p onClick={() => setMenu("work")} className="">
+              Portfolio
+            </p>
+          </AnchorLink>
         </li>
         <li className="">
-          <p onClick={() => setMenu("contact")} className="">
-            Contact
-          </p>
+          <AnchorLink>
+            <p onClick={() => setMenu("contact")} className="">
+              Contact
+            </p>
+          </AnchorLink>
         </li>
       </ul>
       <div className="nav-connect">Connect With Me</div>
