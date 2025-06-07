@@ -3,6 +3,7 @@ import "./Contact.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import mail_icon from '../../assets/mail_icon.svg';
 import location_icon from '../../assets/location_icon.svg';
+import linkedin from '../../assets/linkedin.png';
 
 const Contact = () => {
 // web3form code start
@@ -48,11 +49,19 @@ const onSubmit = async (event) => {
             for a remote Front End or Full Stack Web Developer.
           </p>
           <div className="contact-details">
+            {/* email address */}
             <div className="contact-detail">
               <img src={mail_icon} alt="" className="" />
               <p className="">helloKristinaFaye@gmail.com</p>
             </div>
 
+            {/* Linked In */}
+            <div className="contact-detail">
+              <img src={linkedin} alt="" className="linkedIn" />
+              <p className="">helloKristinaFaye@gmail.com</p>
+            </div>
+
+            {/* physical location */}
             <a
               href="https://www.google.com/search?q=Seattle%2C+Washington&sca_esv=507ae70456641e23&sxsrf=AE3TifP95TwGL04xNXpwedhOnxrDgVpEfQ%3A1749337538547&ei=wsVEaPyRIdDy0PEP94uCuAc&ved=0ahUKEwj8-s6UtuCNAxVQOTQIHfeFAHcQ4dUDCBA&uact=5&oq=Seattle%2C+Washington&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgCIhNTZWF0dGxlLCBXYXNoaW5ndG9uMg0QLhiABBixAxgUGIcCMggQABiABBixAzIKEAAYgAQYFBiHAjIFEAAYgAQyCBAAGIAEGLEDMgsQLhiABBjHARivATILEC4YgAQYxwEYrwEyBRAAGIAEMgUQABiABDIFEAAYgAQyHBAuGIAEGLEDGBQYhwIYlwUY3AQY3gQY4ATYAQFInzVQ5wVYnytwAngBkAEAmAHRAqABrBOqAQgwLjEyLjIuMbgBA8gBAPgBAZgCEKAC7xLCAgoQABiwAxjWBBhHwgINEAAYsAMY1gQYRxiLA8ICBxAjGLECGCfCAg4QLhiABBiRAhixAxiKBcICERAAGIAEGJECGLEDGIMBGIoFwgILEAAYgAQYkQIYigXCAg0QLhiABBixAxiDARgKwgITEC4YgAQYsQMYgwEYxwEYChivAcICDRAAGIAEGLEDGIMBGArCAgcQABiABBgKwgIEECMYJ8ICDRAuGIAEGLEDGEMYigXCAhAQABiABBixAxiDARgUGIcCwgILEC4YgAQYsQMYgwHCAhEQLhiABBixAxiDARjHARivAcICCxAAGIAEGLEDGIMBwgIKEAAYgAQYQxiKBcICChAjGIAEGCcYigXCAgoQLhiABBhDGIoFwgIQEC4YgAQYsQMYgwEYFBiHApgDAIgGAZAGCLoGBggBEAEYFJIHCDIuMTEuMi4xoAee1wGyBwgwLjExLjIuMbgH5BLCBwQyLTE2yAdc&sclient=gws-wiz-serp"
               target="_blank"

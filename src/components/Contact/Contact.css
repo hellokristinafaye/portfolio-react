@@ -50,7 +50,11 @@
     font-size: 20px;
     line-height: 35px;
 }
-
+.linkedIn {
+    background: white;
+    width: 40px;
+    border-radius: 5px;
+}
 .location-detail{
     text-decoration: none;
 }
