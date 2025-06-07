@@ -10,6 +10,7 @@ Technologies Used:
 - JavaScript
 - Google Fonts
 - Vercel
+- Web3forms
 
 Features:
 
