@@ -56,9 +56,10 @@ const onSubmit = async (event) => {
             </div>
 
             {/* Linked In */}
+            <a href="" className=""></a>
             <div className="contact-detail">
               <img src={linkedin} alt="" className="linkedIn" />
-              <p className="">helloKristinaFaye@gmail.com</p>
+              <p className="">LinkedIn: Kristina Glinoga</p>
             </div>
 
             {/* physical location */}
