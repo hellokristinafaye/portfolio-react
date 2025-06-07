@@ -50,3 +50,8 @@
     color: var(--lt-grey);
     font-size: 22px;
 }
+.contact-detail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
