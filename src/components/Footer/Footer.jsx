@@ -12,8 +12,9 @@ const Footer = () => {
         </div>
         <div className="footer-top-right">
           <p className="">not sure</p>
-        </div>
+              </div>
       </div>
+              <hr className="" />
 
       <div className="footer-bottom">
         <p className="footer-bottom-left">
