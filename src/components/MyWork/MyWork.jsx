@@ -1,6 +1,7 @@
 import React from 'react'
 import './MyWork.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
+import 
 
 const MyWork = () => {
   return (
@@ -8,7 +9,13 @@ const MyWork = () => {
       <div className="mywork-title">
         <h1 className="">My Latest Work</h1>
         <img src={theme_pattern} alt="" className="" />
-      </div>
+          </div>
+          
+          <div className="mywork-container">
+              
+          </div>
+
+
     </div>
   );
 }
