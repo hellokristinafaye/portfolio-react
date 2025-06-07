@@ -40,3 +40,9 @@
     font-size: 24px;
     font-weight: 500;
 }
+
+.about-skill {
+    display: flex;
+    gap: 30px; 
+    justify-content: center;
+}

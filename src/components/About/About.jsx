@@ -33,12 +33,17 @@ const About = () => {
           </div>
           <div className="about-skills">
             <div className="about-skill">
-              <p className="">HTML</p>
-              <p className="">CSS</p>
-              <p className="">JavaScript</p>
-              <p className="">React JS</p>
-              <p className="">Google Fonts</p>
-              <p className="">Tailwind CSS</p>
+              <p className="about-text">HTML</p>
+              <p className="">|</p>
+              <p className="about-text">CSS</p>
+              <p className="">|</p>
+              <p className="about-text">JavaScript</p>
+              <p className="">|</p>
+              <p className="about-text">React JS</p>
+              <p className="">|</p>
+              <p className="about-text">Google Fonts</p>
+              <p className="">|</p>
+              <p className="about-text">Tailwind CSS</p>
             </div>
           </div>
         </div>
