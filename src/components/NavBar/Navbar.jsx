@@ -46,7 +46,7 @@ const Navbar = () => {
         </li>
 
         <li className="">
-          <AnchorLink className="anchor-link" offset={50} href="#work">
+          <AnchorLink className="anchor-link" offset={100} href="#work">
             <p onClick={() => setMenu("work")} className="">
               Portfolio
             </p>

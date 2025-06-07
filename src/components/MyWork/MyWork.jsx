@@ -18,10 +18,13 @@ const MyWork = () => {
         })}
       </div>
 
-      <div className="mywork-showmore">
+      {/* commenting out the button until we have more projects to showcase */}
+      {/* <div className="mywork-showmore">
         <p className="">Show More</p>
         <img src={arrow_icon} alt="" className="" />
-      </div>
+      </div> */}
+
+      <div className="placeholder"></div>
     </div>
   );
 }
