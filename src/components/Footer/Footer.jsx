@@ -7,20 +7,24 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-top">
         <div className="footer-top-left">
-                  <img src={footer_logo} alt="" className="" />
-                  <p className="">I am a Full Stack developer from the USA. </p>
-              </div>
-              <div className="footer-top-right">
-                <p className="">not sure</p>
-              </div>
-              <div className="footer-bottom">
-                  <p className="footer-bottom-left">Copyright {new Date().getFullYear()} Kristina Glinoga. All rights reserved.</p>
-                  <div className="footer-bottom-right">
-                      <p className="">Terms of Services</p>
-                      <p className="">Privacy Policy</p>
-                      <p className="">Connect with me</p>
-                  </div>
-              </div>
+          <img src={footer_logo} alt="" className="" />
+          <p className="">I am a Full Stack developer from the USA. </p>
+        </div>
+        <div className="footer-top-right">
+          <p className="">not sure</p>
+        </div>
+      </div>
+
+      <div className="footer-bottom">
+        <p className="footer-bottom-left">
+          Copyright {new Date().getFullYear()} Kristina Glinoga. All rights
+          reserved.
+        </p>
+        <div className="footer-bottom-right">
+          <p className="">Terms of Services</p>
+          <p className="">Privacy Policy</p>
+          <p className="">Connect with me</p>
+        </div>
       </div>
     </div>
   );
