@@ -134,4 +134,7 @@
     .contact-detail img {
         width: 25px;
     }
+    .contact-right label {
+        font-size: 20px;
+    }
 }
