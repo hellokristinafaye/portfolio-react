@@ -18,17 +18,14 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p className="">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-              vero rerum provident earum fugiat, harum sit inventore. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Iure sunt sint
-              at natus. Debitis enim ratione numquam? Aperiam, quasi nisi.
-              Reiciendis iste sequi sunt inventore atque. Consectetur error
-              assumenda quas!{" "}
+              I am a Front-End Web Developer with hands-on experience building
+              responsive, user-centered applications using HTML, CSS,
+              JavaScript, React, and many third-party frameworks and libraries. I have a strong background mentoring students
+              remotely from my time as a teaching assistant in a full-stack web development bootcamp. I'm passionate about clean UI,
+              accessibility, and solving technical problems collaboratively.{" "}
             </p>
             <p className="">
-              Nihil ad natus saepe ipsum, dolores hic nisi cum eligendi, earum
-              libero quasi? Reiciendis iste sequi sunt inventore atque.
-              Consectetur error assumenda quas!
+              Feel free to reach out with any questions or if you're looking to add a collaborative, empathetic, and remote Front-End or Full Stack Web Developer to your team.
             </p>
           </div>
           <div className="about-skills">
