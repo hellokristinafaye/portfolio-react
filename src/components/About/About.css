@@ -89,3 +89,7 @@
 .about-achievement:hover{
     transform: scale(1.3);
 }
+.about-achievement p {
+    font-size: 22px;
+    font-weight: 500;
+}
