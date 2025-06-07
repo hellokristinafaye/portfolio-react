@@ -40,4 +40,6 @@
 .contact-left p {
     max-width: 550px;
     color: var(--lt-grey);
+    font-size: 20px;
+    line-height: 35px;
 }
