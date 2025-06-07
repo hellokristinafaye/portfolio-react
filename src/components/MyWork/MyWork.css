@@ -78,5 +78,6 @@
     .mywork-container img {
         width: 80vw;
         height: 100%;
+        justify-content: center;
     }
 }
