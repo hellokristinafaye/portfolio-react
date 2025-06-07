@@ -66,3 +66,12 @@
     font-size: 22px;
     font-weight: 500;
 }
+.contact-right input {
+    border: none;
+    width: 700px;
+    height: 78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: var(--dark-grey);
+    color: var(--mid-grey);
+}
