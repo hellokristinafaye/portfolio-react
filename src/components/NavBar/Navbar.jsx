@@ -27,7 +27,7 @@ const Navbar = () => {
             <p onClick={() => setMenu("about")} className="">
               About Me
             </p>
-            {/* {menu === "about" ? <img src={underline} /> : <></>} */}
+            {menu === "about" ? <img src={underline} /> : <></>}
           {/* </AnchorLink> */}
         </li>
 
@@ -36,7 +36,7 @@ const Navbar = () => {
             <p onClick={() => setMenu("work")} className="">
               Portfolio
             </p>
-            {/* {menu === "work" ? <img src={underline} /> : <></>} */}
+            {menu === "work" ? <img src={underline} /> : <></>}
           {/* </AnchorLink> */}
         </li>
 
@@ -45,7 +45,7 @@ const Navbar = () => {
             <p onClick={() => setMenu("contact")} className="">
               Contact
             </p>
-            {/* {menu === "contact" ? <img src={underline} /> : <></>} */}
+            {menu === "contact" ? <img src={underline} /> : <></>}
           {/* </AnchorLink> */}
         </li>
       </ul>
