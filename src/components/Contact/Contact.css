@@ -74,4 +74,6 @@
     border-radius: 4px;
     background: var(--dark-grey);
     color: var(--mid-grey);
+    font-family: "outfit", sans-serif;
+    font-size: 20px;
 }
