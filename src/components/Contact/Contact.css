@@ -51,6 +51,9 @@
     line-height: 35px;
 }
 
+.location-detail{
+    text-decoration: none;
+}
 .contact-details {
     display: flex;
     flex-direction: column;

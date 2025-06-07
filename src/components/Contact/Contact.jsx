@@ -56,7 +56,7 @@ const onSubmit = async (event) => {
             <a
               href="https://www.google.com/search?q=Seattle%2C+Washington&sca_esv=507ae70456641e23&sxsrf=AE3TifP95TwGL04xNXpwedhOnxrDgVpEfQ%3A1749337538547&ei=wsVEaPyRIdDy0PEP94uCuAc&ved=0ahUKEwj8-s6UtuCNAxVQOTQIHfeFAHcQ4dUDCBA&uact=5&oq=Seattle%2C+Washington&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgCIhNTZWF0dGxlLCBXYXNoaW5ndG9uMg0QLhiABBixAxgUGIcCMggQABiABBixAzIKEAAYgAQYFBiHAjIFEAAYgAQyCBAAGIAEGLEDMgsQLhiABBjHARivATILEC4YgAQYxwEYrwEyBRAAGIAEMgUQABiABDIFEAAYgAQyHBAuGIAEGLEDGBQYhwIYlwUY3AQY3gQY4ATYAQFInzVQ5wVYnytwAngBkAEAmAHRAqABrBOqAQgwLjEyLjIuMbgBA8gBAPgBAZgCEKAC7xLCAgoQABiwAxjWBBhHwgINEAAYsAMY1gQYRxiLA8ICBxAjGLECGCfCAg4QLhiABBiRAhixAxiKBcICERAAGIAEGJECGLEDGIMBGIoFwgILEAAYgAQYkQIYigXCAg0QLhiABBixAxiDARgKwgITEC4YgAQYsQMYgwEYxwEYChivAcICDRAAGIAEGLEDGIMBGArCAgcQABiABBgKwgIEECMYJ8ICDRAuGIAEGLEDGEMYigXCAhAQABiABBixAxiDARgUGIcCwgILEC4YgAQYsQMYgwHCAhEQLhiABBixAxiDARjHARivAcICCxAAGIAEGLEDGIMBwgIKEAAYgAQYQxiKBcICChAjGIAEGCcYigXCAgoQLhiABBhDGIoFwgIQEC4YgAQYsQMYgwEYFBiHApgDAIgGAZAGCLoGBggBEAEYFJIHCDIuMTEuMi4xoAee1wGyBwgwLjExLjIuMbgH5BLCBwQyLTE2yAdc&sclient=gws-wiz-serp"
               target="_blank"
-              className=""
+              className="location-detail"
             >
               <div className="contact-detail">
                 <img src={location_icon} alt="" className="" />
