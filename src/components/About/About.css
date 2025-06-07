@@ -78,3 +78,14 @@
     gap: 10px;
     transition: .5s;
 }
+.about-achievement h1 {
+    font-size: 60px;
+    font-weight: 400;
+    background: linear-gradient(270deg, var(--orange-color) 50.41%, var(--purple-color) 90.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about-achievement:hover{
+    transform: scale(1.3);
+}
