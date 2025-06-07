@@ -69,6 +69,7 @@ const onSubmit = async (event) => {
               placeholder="Enter your name"
               name="name"
               className=""
+              required
             />
             <label htmlFor="" className="">
               Your Email
@@ -78,6 +79,7 @@ const onSubmit = async (event) => {
               placeholder="Enter your email address"
               name="email"
               className=""
+              required
             />
             <label htmlFor="" className="">
               Write your message here
@@ -87,6 +89,7 @@ const onSubmit = async (event) => {
               rows="8"
               placeholder="Enter your message"
               className=""
+              required
             />
             <button type="submit" className="contact-submit">
               Submit Now
