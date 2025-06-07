@@ -65,3 +65,9 @@
 .about-line {
     font-size: 30px;
 }
+.about-achievements {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
