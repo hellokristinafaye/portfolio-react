@@ -3,7 +3,9 @@ import './MyWork.css'
 
 const MyWork = () => {
   return (
-    <div>MyWork</div>
+      <div className="mywork">
+        
+    </div>
   )
 }
 
