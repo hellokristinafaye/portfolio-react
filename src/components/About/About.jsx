@@ -44,7 +44,7 @@ const About = () => {
               <p className="about-line">|</p>
               <p className="about-text">Tailwind CSS</p>
               <p className="about-line">|</p>
-              <p className="about-text">Responive Web Design</p>
+              <p className="about-text">Responsive Web Design</p>
               <p className="about-line">|</p>
               <p className="about-text">Mobile-First Web Design</p>
             </div>
