@@ -34,17 +34,36 @@ const About = () => {
           <div className="about-skills">
             <div className="about-skill">
               <p className="about-text">HTML</p>
-              <p className="">|</p>
+              <p className="about-line">|</p>
               <p className="about-text">CSS</p>
-              <p className="">|</p>
+              <p className="about-line">|</p>
               <p className="about-text">JavaScript</p>
-              <p className="">|</p>
+              <p className="about-line">|</p>
               <p className="about-text">React JS</p>
-              <p className="">|</p>
-              <p className="about-text">Google Fonts</p>
-              <p className="">|</p>
-              <p className="about-text">Tailwind CSS</p>
-            </div>
+           
+                      </div>
+                      
+              <div className="about-skill">
+                <p className="about-text">Google Fonts</p>
+                <p className="about-line">|</p>
+                <p className="about-text">Tailwind CSS</p>
+                <p className="about-line">|</p>
+                <p className="about-text">Responive Web Design</p>
+                <p className="about-line">|</p>
+                <p className="about-text">Mobile-First Web Design</p>
+                      </div>
+                      
+              <div className="about-skill">
+                <p className="about-text">MongoDB</p>
+                <p className="about-line">|</p>
+                <p className="about-text">Express JS</p>
+                <p className="about-line">|</p>
+                <p className="about-text">Node JS</p>
+                <p className="about-line">|</p>
+                <p className="about-text">Web Hosting</p>
+                          </div>
+                          
+            
           </div>
         </div>
       </div>

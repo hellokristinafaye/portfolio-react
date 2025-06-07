@@ -41,10 +41,14 @@
     font-weight: 500;
 }
 
+.about-skills {
+    display: block;
+}
 .about-skill {
     display: flex;
     gap: 30px; 
     justify-content: center;
+    align-items: center;
 }
 .about-text {
     font-size: 24px;
@@ -56,4 +60,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.about-line {
+    font-size: 30px;
 }
