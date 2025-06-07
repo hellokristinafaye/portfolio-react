@@ -119,4 +119,14 @@
         font-size: 18px;
         line-height: 32px;
     }
+    .about-skill {
+        gap: 20px;
+        align-items: center;
+        line-height: 30px;
+        padding: 20px;
+    }
+    .about-line {
+        font-size: 80px;
+        font-weight: 100;
+    }
 }
