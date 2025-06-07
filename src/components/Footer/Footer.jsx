@@ -14,7 +14,12 @@ const Footer = () => {
                 <p className="">not sure</p>
               </div>
               <div className="footer-bottom">
-                  <p className="footer-bottom-left">Copyright {new Date().getFullYear()}</p>
+                  <p className="footer-bottom-left">Copyright {new Date().getFullYear()} Kristina Glinoga. All rights reserved.</p>
+                  <div className="footer-bottom-right">
+                      <p className="">Terms of Services</p>
+                      <p className="">Privacy Policy</p>
+                      <p className="">Connect with me</p>
+                  </div>
               </div>
       </div>
     </div>
