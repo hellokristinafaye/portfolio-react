@@ -94,3 +94,11 @@
     font-size: 22px;
     font-weight: 500;
 }
+
+@media(max-width: 768px) {
+    .about {
+        gap: 80px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+}
