@@ -99,3 +99,7 @@
     cursor: pointer;
     transition: .3s; 
 }
+.contact-submit:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
