@@ -26,3 +26,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
 }
+.mywork-container img {
+    box-sizing: border-box;
+    width: 419px;
+    height: 280px;
+    transition: .3s;
+    cursor: pointer;
+}
