@@ -11,7 +11,8 @@ const Footer = () => {
           <p className="">I am a Full Stack developer from the USA. </p>
         </div>
         <div className="footer-top-right">
-          <p className="">not sure</p>
+                  {/* <p className="">not sure</p> */}
+                  {/* in the tutorial this is for a Subscribe CTA for a newsletter that I don't do */}
               </div>
       </div>
               <hr className="" />
