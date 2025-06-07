@@ -1,12 +1,16 @@
 import React from 'react'
 import './MyWork.css'
+import theme_pattern from '../../assets/theme_pattern.svg'
 
 const MyWork = () => {
   return (
-      <div className="mywork">
-        
+    <div className="mywork">
+      <div className="mywork-title">
+        <h1 className="">My Latest Work</h1>
+        <img src={theme_pattern} alt="" className="" />
+      </div>
     </div>
-  )
+  );
 }
 
 export default MyWork
