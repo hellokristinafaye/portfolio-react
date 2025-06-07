@@ -20,3 +20,7 @@
     right: 0;
     z-index: -1;
 }
+.contact-section {
+    display: flex;
+    gap: 150px;
+}
