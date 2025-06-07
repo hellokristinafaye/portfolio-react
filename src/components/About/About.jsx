@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import headshotLGSquare from "../../assets/headshotLGSquare.jpg";
+import headShotRectangle from "../../assets/headShotRectangle.jpg";
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
 
       <div className="about-sections">
         <div className="about-left">
-          <img src={headshotLGSquare} alt="" className="" />
+          <img src={headShotRectangle} alt="" className="" />
         </div>
         <div className="about-right">
           <div className="about-para">
@@ -40,30 +40,27 @@ const About = () => {
               <p className="about-text">JavaScript</p>
               <p className="about-line">|</p>
               <p className="about-text">React JS</p>
-           
-                      </div>
-                      
-              <div className="about-skill">
-                <p className="about-text">Google Fonts</p>
-                <p className="about-line">|</p>
-                <p className="about-text">Tailwind CSS</p>
-                <p className="about-line">|</p>
-                <p className="about-text">Responive Web Design</p>
-                <p className="about-line">|</p>
-                <p className="about-text">Mobile-First Web Design</p>
-                      </div>
-                      
-              <div className="about-skill">
-                <p className="about-text">MongoDB</p>
-                <p className="about-line">|</p>
-                <p className="about-text">Express JS</p>
-                <p className="about-line">|</p>
-                <p className="about-text">Node JS</p>
-                <p className="about-line">|</p>
-                <p className="about-text">Web Hosting</p>
-                          </div>
-                          
-            
+            </div>
+
+            <div className="about-skill">
+              <p className="about-text">Google Fonts</p>
+              <p className="about-line">|</p>
+              <p className="about-text">Tailwind CSS</p>
+              <p className="about-line">|</p>
+              <p className="about-text">Responive Web Design</p>
+              <p className="about-line">|</p>
+              <p className="about-text">Mobile-First Web Design</p>
+            </div>
+
+            <div className="about-skill">
+              <p className="about-text">MongoDB</p>
+              <p className="about-line">|</p>
+              <p className="about-text">Express JS</p>
+              <p className="about-line">|</p>
+              <p className="about-text">Node JS</p>
+              <p className="about-line">|</p>
+              <p className="about-text">Web Hosting</p>
+            </div>
           </div>
         </div>
       </div>
