@@ -4,7 +4,7 @@
     align-items: center;
     justify-content:center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 180px 170px;
 }
 .about img {
     width: 12rem;
@@ -68,6 +68,10 @@
 .about-line {
     font-size: 30px;
     color: var(--purple-color);
+}
+
+.space-holder {
+    height: 50px;
 }
 .about-achievements {
     display: flex;
