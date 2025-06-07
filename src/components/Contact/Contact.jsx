@@ -87,7 +87,7 @@ const onSubmit = async (event) => {
               rows="8"
               placeholder="Enter your message"
               className=""
-            ></textarea>
+            />
             <button type="submit" className="contact-submit">
               Submit Now
             </button>
