@@ -24,3 +24,8 @@
     display: flex;
     gap: 150px;
 }
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
