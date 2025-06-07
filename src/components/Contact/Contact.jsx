@@ -20,9 +20,11 @@ const Contact = () => {
               looking for a remote Front End or Full Stack Web Developer.
                       </p>
                       <div className="contact-details">
-                          <div className="contact-detail"></div>
-                          <div className="contact-detail"></div>
-                          <div className="contact-detail"></div>
+                          <div className="contact-detail">
+                              <img src={mail_icon} alt="" className="" />
+                              <p className="">helloKristinaFaye@gmail.com</p>
+                          </div>
+                          
                       </div>
           </div>
 
