@@ -3,6 +3,7 @@ import './Navbar.css'
 import logo from '../../assets/logo.svg'
 import underline from '../../assets/nav_underline.svg'
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import menu_open from '../../assets/menu_open.svg'
 
 
 const Navbar = () => {
@@ -12,6 +13,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <img src={logo} alt="" className="" />
+      <img src={menu_open} alt="" className="" />
       <ul className="nav-menu">
         <li className="">
           <AnchorLink className="anchor-link" href="#home">
