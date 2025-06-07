@@ -61,3 +61,8 @@
     align-items: start;
     gap: 30px;
 }
+.contact-right label{
+    color: var(--lt-grey);
+    font-size: 22px;
+    font-weight: 500;
+}
