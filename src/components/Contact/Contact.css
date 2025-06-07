@@ -37,3 +37,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.contact-left p {
+    max-width: 550px;
+    color: var(--lt-grey);
+}
