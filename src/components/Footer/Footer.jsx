@@ -9,7 +9,13 @@ const Footer = () => {
         <div className="footer-top-left">
                   <img src={footer_logo} alt="" className="" />
                   <p className="">I am a Full Stack developer from the USA. </p>
-        </div>
+              </div>
+              <div className="footer-top-right">
+                <p className="">not sure</p>
+              </div>
+              <div className="footer-bottom">
+                  <p className="footer-bottom-left">Copyright {new Date().getFullYear()}</p>
+              </div>
       </div>
     </div>
   );
