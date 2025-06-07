@@ -131,4 +131,7 @@
     .contact-detail {
         gap: 20px;
     }
+    .contact-detail img {
+        width: 25px;
+    }
 }
