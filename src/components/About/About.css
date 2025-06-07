@@ -64,6 +64,7 @@
 }
 .about-line {
     font-size: 30px;
+    color: var(--purple-color);
 }
 .about-achievements {
     display: flex;
