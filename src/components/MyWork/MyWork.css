@@ -67,5 +67,8 @@
         font-size: 50px;
         font-weight: 600;
     }
-    
+    .mywork-title img {
+        width: 130px;
+        margin-right: -20px;
+    }
 }
