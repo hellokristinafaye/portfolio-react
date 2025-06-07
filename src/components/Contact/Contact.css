@@ -122,4 +122,8 @@
     .contact-section {
         flex-direction: column;
     }
+    .contact-left h1 {
+        font-size: 54px;
+        
+    }
 }
