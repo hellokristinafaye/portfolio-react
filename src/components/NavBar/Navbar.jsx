@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.svg'
 import underline from '../../assets/nav_underline.svg'
@@ -9,14 +9,23 @@ import menu_close from '../../assets/menu_close.svg'
 
 const Navbar = () => {
 
-    const [menu, setMenu] = useState("home");
+  const [menu, setMenu] = useState("home");
+  // for mobile menu buttons
+  const menuRef = useRef();
+
+  const openMenu = () => {
+    menuRef.current.style.right = "0";
+  }
+  const closeMenu = () => {
+    menuRef.current.style.right = "-350px";
+  }
 
   return (
     <div className="navbar">
       <img src={logo} alt="" className="" />
       <img src={menu_open} alt="" className="nav-mob-open" />
       <img src={menu_close} alt="" className="nav-mob-close" />
-      <ul className="nav-menu">
+      <ul ref={menuRef} className="nav-menu">
         <li className="">
           <AnchorLink className="anchor-link" href="#home">
             <p onClick={() => setMenu("home")} className="">
