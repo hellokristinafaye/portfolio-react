@@ -112,4 +112,7 @@
     .about-sections {
         flex-direction: column;
     }
+    .about-left {
+        display: none;
+    }
 }
