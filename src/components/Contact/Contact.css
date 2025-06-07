@@ -7,6 +7,10 @@
     margin: 80px 170px;
 }
 .contact-title {
-   
     position: relative;
+}
+.contact-title h1 {
+    padding: 0 30px;
+    font-size: 80px;
+    font-weight: 600;
 }
