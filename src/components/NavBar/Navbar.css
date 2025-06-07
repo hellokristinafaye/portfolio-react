@@ -50,6 +50,10 @@
         right: 30px;
     }
     .nav-mob-close {
-
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 290px;
+        width: 30px;
     }
 }
