@@ -10,8 +10,7 @@ const Navbar = () => {
     const [menu, setMenu] = useState("home");
 
   return (
-      <div className="navbar">
-          
+    <div className="navbar">
       <img src={logo} alt="" className="" />
       <ul className="nav-menu">
         <li className="">
@@ -50,7 +49,9 @@ const Navbar = () => {
           </AnchorLink>
         </li>
       </ul>
-      <div className="nav-connect">Connect With Me</div>
+      <AnchorLink className="anchor-link" offset={50} href="#contact">
+        <div className="nav-connect">Connect With Me</div>
+      </AnchorLink>
     </div>
   );
 }
