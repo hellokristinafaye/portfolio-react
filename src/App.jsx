@@ -13,7 +13,9 @@ const App = () => {
       <Hero />
       <About />
       <MyWork />
+      {/* next steps: upload your own work for the portfolio area.  Needs screenshots for everything */}
       <Contact />
+    {/* next steps: add GitHub link to Contact */}
       <Footer />
     </div>
   )
