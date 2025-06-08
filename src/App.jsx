@@ -17,6 +17,8 @@ const App = () => {
       <Contact />
     {/* next steps: add GitHub link to Contact */}
       <Footer />
+      {/* wanted to add a scroll to top button, will wait for future dev */}
+      {/* <button className="to-top">^</button> */}
     </div>
   )
 }

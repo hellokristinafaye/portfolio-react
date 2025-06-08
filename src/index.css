@@ -17,3 +17,11 @@ body {
     background: var(--background-color);
     color: var(--white-color);
 }
+/* .to-top {
+    background: var(--dark-purple);
+    color: var(--mid-grey);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position:fixed;
+} */
