@@ -2,7 +2,7 @@ import projectGreenCartPic from '../assets/projectGreenCartPic.png'
 import projectNetflixClone from '../assets/projectNetflixClone.png'
 import projectStayBnB from '../assets/projectStayBnB.png'
 import projectWeatherApp from '../assets/projectWeatherApp.png'
-import project5_img from '../assets/project_5.svg'
+import projectToDoList from '../assets/projectToDoList.png'
 import project6_img from '../assets/project_6.svg'
 
 const mywork_data = [
@@ -29,7 +29,7 @@ const mywork_data = [
     {
         w_no:5,
         w_name:"Web design",
-        w_img:project5_img
+        w_img:projectToDoList
     },
     {
         w_no:6,
