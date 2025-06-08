@@ -4,6 +4,7 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 import mail_icon from '../../assets/mail_icon.svg';
 import location_icon from '../../assets/location_icon.svg';
 import linkedin from '../../assets/linkedin.png';
+import GitHubIcon from '../../assets/GitHubIcon.png'
 
 const Contact = () => {
 // web3form code start
@@ -64,6 +65,18 @@ const onSubmit = async (event) => {
               <div className="contact-detail">
                 <img src={linkedin} alt="" className="linkedIn" />
                 <p className="">LinkedIn: Kristina Glinoga</p>
+              </div>
+            </a>
+
+            {/* GitHub */}
+            <a
+              href="https://github.com/hellokristinafaye"
+              target="_blank"
+              className="gitHub-link"
+            >
+              <div className="contact-detail">
+                <img src={GitHubIcon} alt="" className="gitHub" />
+                <p className="">GitHub: helloKristinaFaye</p>
               </div>
             </a>
 

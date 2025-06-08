@@ -57,6 +57,10 @@
     border-radius: 5px;
 }
 
+.gitHub {
+    width: 40px;
+}
+
 .contact-details {
     display: flex;
     flex-direction: column;
