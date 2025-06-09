@@ -16,22 +16,31 @@ const mywork_data = [
     {
         w_no:2,
         w_name:"Netflix Clone",
-        w_img:projectNetflixClone
+        w_img: projectNetflixClone,
+        w_deploy_link: "https://green-cart-front-end.vercel.app/",
+        w_github_link: "https://github.com/hellokristinafaye/greenCartFrontEndPractice"
+        
     },
     {
         w_no:3,
         w_name:"AirBnb Clone",
-        w_img:projectStayBnB
+        w_img: projectStayBnB,
+        w_deploy_link: "https://green-cart-front-end.vercel.app/",
+        w_github_link: "https://github.com/hellokristinafaye/greenCartFrontEndPractice"
     },
     {
         w_no:4,
         w_name:"Weather App with Dark Mode",
-        w_img:projectWeatherApp
+        w_img: projectWeatherApp,
+        w_deploy_link: "https://green-cart-front-end.vercel.app/",
+        w_github_link: "https://github.com/hellokristinafaye/greenCartFrontEndPractice"
     },
     {
         w_no:5,
         w_name:"To Do List",
-        w_img:projectToDoList
+        w_img: projectToDoList,
+        w_deploy_link: "https://green-cart-front-end.vercel.app/",
+        w_github_link: "https://github.com/hellokristinafaye/greenCartFrontEndPractice"
     },
     {
         w_no:6,
