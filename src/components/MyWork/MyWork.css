@@ -37,6 +37,7 @@
     position: relative;
     border-radius: 5px;
 }
+
 .hover-card {
     height: 280px;
 }
@@ -63,6 +64,10 @@
 .work-overlay p {
     font-weight: 700;
     font-size: 30px;
+}
+.work-overlay .work-desc {
+    font-weight: 400;
+    font-size: 20px;
 }
 .work-overlay a {
     color: var(--light-gray);

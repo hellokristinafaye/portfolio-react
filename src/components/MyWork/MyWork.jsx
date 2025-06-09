@@ -23,6 +23,7 @@ const MyWork = () => {
                   </a>
                   <div className="work-overlay">
                     <p className="">{work.w_name}</p>
+                    <p className="work-desc">{work.w_desc}</p>
 
                     <a href={work.w_deploy_link} target="_blank" className="">
                       Live Demo
