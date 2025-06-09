@@ -50,12 +50,12 @@
  .work-overlay {
     text-align: center;
     position: relative;
-    top: -288px;
+    top: -286px;
     opacity: 0;
     transition: .3s;
-    height: 192px;
+    height: 211px;
     background: var(--transparent-purple);
-    padding-top: 90px;
+    padding-top: 70px;
     border-radius: 5px;
  }
  .work-overlay:hover {

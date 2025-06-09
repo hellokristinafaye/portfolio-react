@@ -9,7 +9,8 @@ const mywork_data = [
     {
         w_no:1,
         w_name: "Grocery E-commerce (UI)",
-        w_desc: "Front End using React, Tailwind, Google Fonts",
+        w_desc: "Responsive front-end UI",
+        w_tech: "Responsive front-end UI",
         w_img: projectGreenCartPic,
         w_deploy_link: "https://green-cart-front-end.vercel.app/",
         w_github_link: "https://github.com/hellokristinafaye/greenCartFrontEndPractice"
