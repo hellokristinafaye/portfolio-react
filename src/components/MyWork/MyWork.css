@@ -21,10 +21,12 @@
     z-index: -1;
 }
 
+/* project thumbnails */
 .mywork-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
+    position: relative;
 }
 .mywork-container img {
     box-sizing: border-box;
@@ -48,6 +50,9 @@
 } */
  .work-overlay {
     text-align: center;
+    position: relative;
+    left: 0;
+    top: -200px;
  }
 .work-overlay p {
     font-weight: 700;

@@ -17,6 +17,7 @@ const MyWork = () => {
           return (
             <>
               <div className="work-container">
+                
                 <a href={work.w_deploy_link} target="_blank" className="">
                   <img key={index} src={work.w_img} alt="" className="" />
                 </a>
@@ -31,6 +32,7 @@ const MyWork = () => {
                     GitHub
                   </a>
                 </div>
+                
               </div>
               {/* overlay section (trial)*/}
             </>
