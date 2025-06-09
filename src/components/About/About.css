@@ -57,6 +57,7 @@
 .about-text {
     font-size: 24px;
     transition: .3s;
+    text-align: center;
 }
 .about-text:hover {
     font-size: 30px;
