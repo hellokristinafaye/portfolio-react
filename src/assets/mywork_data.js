@@ -32,8 +32,8 @@ const mywork_data = [
         w_no:4,
         w_name:"Weather App with Dark Mode",
         w_img: projectWeatherApp,
-        w_deploy_link: "https://green-cart-front-end.vercel.app/",
-        w_github_link: "https://github.com/hellokristinafaye/greenCartFrontEndPractice"
+        w_deploy_link: "https://hellokristinafaye.github.io/weatherApp2/",
+        w_github_link: "https://github.com/hellokristinafaye/weatherApp2"
     },
     {
         w_no:5,
