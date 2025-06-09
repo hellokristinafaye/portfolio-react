@@ -51,6 +51,7 @@
  }
 .work-overlay p {
     font-weight: 700;
+    font-size: 30px;
 }
 .work-overlay a {
     color: var(--light-gray);
