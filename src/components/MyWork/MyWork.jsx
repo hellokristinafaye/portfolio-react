@@ -17,7 +17,7 @@ const MyWork = () => {
           return (
             <>
               <div className="work-container">
-                <div className="hover-test">
+                <div className="hover-card">
                   <a href={work.w_deploy_link} target="_blank" className="">
                     <img key={index} src={work.w_img} alt="" className="" />
                   </a>

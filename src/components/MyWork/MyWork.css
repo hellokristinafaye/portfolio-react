@@ -37,10 +37,10 @@
     position: relative;
     border-radius: 5px;
 }
-.hover-test {
+.hover-card {
     height: 280px;
 }
-.hover-test:hover {
+.hover-card:hover {
     transform:scale(1.10);
     border: 4px solid var(--purple-color);
     border-radius: 10px;
