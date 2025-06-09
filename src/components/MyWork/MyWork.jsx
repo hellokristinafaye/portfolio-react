@@ -17,11 +17,12 @@ const MyWork = () => {
           return (
             <>
               <div className="work-container">
-                <img key={index} src={work.w_img} alt="" className="" />
+                <a href={work.w_deploy_link} target="_blank" className="">
+                  <img key={index} src={work.w_img} alt="" className="" />
+                </a>
                 <div className="work-overlay">
-                  
                   <p className="">{work.w_name}</p>
-            
+
                   <a href={work.w_deploy_link} target="_blank" className="">
                     Live Demo
                   </a>
