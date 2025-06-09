@@ -123,6 +123,9 @@
     .about-left {
         display: none;
     }
+    .about-right {
+        width: 80%;
+    }
     .about-para {
         font-size: 18px;
         line-height: 32px;
