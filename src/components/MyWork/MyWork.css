@@ -46,6 +46,10 @@
     top: 0;
     z-index: 1;
 } */
+.work-overlay a {
+    color: var(--light-gray);
+    text-decoration: none;
+}
 .mywork-showmore {
     display: flex;
     gap: 15px;

@@ -18,7 +18,13 @@ const MyWork = () => {
             <>
               <div className="work-container">
                 <img key={index} src={work.w_img} alt="" className="" />
-                <div className="work-overlay">{work.w_name }</div>
+                <div className="work-overlay">
+                  {work.w_name}
+                  <a href={work.w_deploy_link} className="">
+                    Live Demo {" "}
+                  </a>
+                  <a href={work.w_github_link} className="">GitHub</a>
+                </div>
               </div>
               {/* overlay section (trial)*/}
             </>
