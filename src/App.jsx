@@ -13,7 +13,7 @@ const App = () => {
       <Hero />
       <About />
       <MyWork />
-      {/* next steps: upload your own work for the portfolio area.  Needs screenshots for everything */}
+      {/* next steps: my work is added! Gonna try to add my desired hover effect on another version */}
       <Contact />
       <Footer />
       {/* wanted to add a scroll to top button, will wait for future dev */}
