@@ -52,6 +52,7 @@
     top: -200px;
     opacity: 0;
     transition: .3s;
+    height: 275px;
  }
  .work-overlay:hover {
     opacity: 100;
