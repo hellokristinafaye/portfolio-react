@@ -27,21 +27,27 @@ const mywork_data = [
     },
     {
         w_no:3,
-        w_name:"AirBnb Clone (UI)",
+        w_name: "AirBnb Clone (UI)",
+        w_desc: "Responsive front-end UI",
+        w_tech: "React, Vite, Tailwind CSS, Vercel, Google Fonts",
         w_img: projectStayBnB,
         w_deploy_link: "https://hellokristinafaye.github.io/staybnb/",
         w_github_link: "https://github.com/hellokristinafaye/staybnb"
     },
     {
         w_no:4,
-        w_name:"Weather App with Dark Mode",
+        w_name: "Weather App with Dark Mode",
+        w_desc: "Responsive front-end UI",
+        w_tech: "React, Vite, Tailwind CSS, Vercel, Google Fonts",
         w_img: projectWeatherApp,
         w_deploy_link: "https://hellokristinafaye.github.io/weatherApp2/",
         w_github_link: "https://github.com/hellokristinafaye/weatherApp2"
     },
     {
         w_no:5,
-        w_name:"To Do List",
+        w_name: "To Do List",
+        w_desc: "Responsive front-end UI",
+        w_tech: "React, Vite, Tailwind CSS, Vercel, Google Fonts",
         w_img: projectToDoList,
         w_deploy_link: "https://hellokristinafaye.github.io/toDoList/",
         w_github_link: "https://github.com/hellokristinafaye/toDoList"
