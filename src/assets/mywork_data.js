@@ -17,7 +17,9 @@ const mywork_data = [
     },
     {
         w_no:2,
-        w_name:"Netflix Clone",
+        w_name: "Netflix Clone",
+        w_desc: "Responsive front-end UI",
+        w_tech: "React, Vite, Tailwind CSS, Vercel, Google Fonts",
         w_img: projectNetflixClone,
         w_deploy_link: "https://netflix-clone-neon-eight-42.vercel.app/",
         w_github_link: "https://github.com/hellokristinafaye/netflixClone"
