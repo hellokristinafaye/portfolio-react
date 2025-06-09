@@ -25,8 +25,8 @@ const mywork_data = [
         w_no:3,
         w_name:"AirBnb Clone",
         w_img: projectStayBnB,
-        w_deploy_link: "https://netflix-clone-neon-eight-42.vercel.app/",
-        w_github_link: "https://github.com/hellokristinafaye/netflixClone"
+        w_deploy_link: "https://hellokristinafaye.github.io/staybnb/",
+        w_github_link: "https://github.com/hellokristinafaye/staybnb"
     },
     {
         w_no:4,
