@@ -24,9 +24,9 @@ const Footer = () => {
           reserved.
         </p>
         <div className="footer-bottom-right">
-          <p className="">Terms of Services</p>
-          <p className="">Privacy Policy</p>
-          <p className="">Connect with me</p>
+          {/* <p className="">Terms of Services</p>
+          <p className="">Privacy Policy</p> */}
+          {/* <p className="">Connect with me</p> */}
         </div>
       </div>
     </div>
