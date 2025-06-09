@@ -39,12 +39,12 @@ const mywork_data = [
         w_no:5,
         w_name:"To Do List",
         w_img: projectToDoList,
-        w_deploy_link: "https://green-cart-front-end.vercel.app/",
-        w_github_link: "https://github.com/hellokristinafaye/greenCartFrontEndPractice"
+        w_deploy_link: "https://hellokristinafaye.github.io/toDoList/",
+        w_github_link: "https://github.com/hellokristinafaye/toDoList"
     },
     {
         w_no:6,
-        w_name:"Placeholder",
+        w_name:"Project Coming Soon!",
         w_img:project6_img
     },
 ]
