@@ -20,9 +20,11 @@ const MyWork = () => {
                 <img key={index} src={work.w_img} alt="" className="" />
                 <div className="work-overlay">
                   {work.w_name}
+                  <br className="" />
                   <a href={work.w_deploy_link} className="">
-                    Live Demo {" "}
+                    Live Demo
                   </a>
+                  <br className="" />
                   <a href={work.w_github_link} className="">GitHub</a>
                 </div>
               </div>
