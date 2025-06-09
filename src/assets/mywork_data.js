@@ -45,9 +45,9 @@ const mywork_data = [
     },
     {
         w_no:5,
-        w_name: "To Do List",
-        w_desc: "Responsive front-end UI",
-        w_tech: "React, Vite, Tailwind CSS, Vercel, Google Fonts",
+        w_name: "To Do List App",
+        w_desc: "Google Keep Clone with persistent data",
+        w_tech: "HTML, CSS, JavaScript, Local Storage",
         w_img: projectToDoList,
         w_deploy_link: "https://hellokristinafaye.github.io/toDoList/",
         w_github_link: "https://github.com/hellokristinafaye/toDoList"
