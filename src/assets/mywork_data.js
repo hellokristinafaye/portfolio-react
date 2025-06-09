@@ -36,9 +36,9 @@ const mywork_data = [
     },
     {
         w_no:4,
-        w_name: "Weather App with Dark Mode",
-        w_desc: "Responsive front-end UI",
-        w_tech: "React, Vite, Tailwind CSS, Vercel, Google Fonts",
+        w_name: "Weather App",
+        w_desc: "Weather report with light/dark toggle",
+        w_tech: " HTML, CSS, JavaScript, OpenWeather web API",
         w_img: projectWeatherApp,
         w_deploy_link: "https://hellokristinafaye.github.io/weatherApp2/",
         w_github_link: "https://github.com/hellokristinafaye/weatherApp2"
