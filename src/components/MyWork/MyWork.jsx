@@ -16,17 +16,15 @@ const MyWork = () => {
         {mywork_data.map((work, index) => {
           return (
             <>
-              <img key={index} src={work.w_img} alt="" className="" />
-              <div key={index} className="card-hover">
-                {work.w_name}
+              <div className="work-container">
+                <img key={index} src={work.w_img} alt="" className="" />
               </div>
+            
             </>
           );
         })}
 
-      <div className="work-hover">
-        <div className="card-hover">Hello</div>
-      </div>
+     
 
       </div>
       
