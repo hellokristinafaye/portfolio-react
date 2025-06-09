@@ -11,7 +11,7 @@ const mywork_data = [
         w_name:"Grocery E-commerce",
         w_img: projectGreenCartPic,
         w_deploy_link: "https://green-cart-front-end.vercel.app/",
-        w_github_link: "https://green-cart-front-end.vercel.app/"
+        w_github_link: "https://github.com/hellokristinafaye/greenCartFrontEndPractice"
     },
     {
         w_no:2,

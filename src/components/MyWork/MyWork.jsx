@@ -21,11 +21,13 @@ const MyWork = () => {
                 <div className="work-overlay">
                   {work.w_name}
                   <br className="" />
-                  <a href={work.w_deploy_link} className="">
+                  <a href={work.w_deploy_link} target="_blank" className="">
                     Live Demo
                   </a>
                   <br className="" />
-                  <a href={work.w_github_link} className="">GitHub</a>
+                  <a href={work.w_github_link} target="_blank" className="">
+                    GitHub
+                  </a>
                 </div>
               </div>
               {/* overlay section (trial)*/}
