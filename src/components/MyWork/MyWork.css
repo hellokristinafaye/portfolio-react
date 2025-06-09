@@ -35,6 +35,7 @@
     transition: .3s;
     cursor: pointer;
     position: relative;
+    border-radius: 5px;
 }
 .hover-test {
     height: 280px;
