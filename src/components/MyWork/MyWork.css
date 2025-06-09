@@ -53,6 +53,10 @@
     position: relative;
     left: 0;
     top: -200px;
+    opacity: 0;
+ }
+ .work-overlay:hover {
+    display: block;
  }
 .work-overlay p {
     font-weight: 700;
