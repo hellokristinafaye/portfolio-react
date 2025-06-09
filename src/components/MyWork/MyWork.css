@@ -128,4 +128,7 @@
         margin: 50px auto;
         cursor: pointer;
     }
+    .work-overlay {
+        opacity: 100%;
+    }
 }
