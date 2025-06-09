@@ -40,6 +40,7 @@
 
 .hover-card {
     height: 280px;
+    transition: .5s;
 }
 .hover-card:hover {
     transform:scale(1.10);
@@ -52,7 +53,7 @@
     position: relative;
     top: -286px;
     opacity: 0;
-    transition: .3s;
+    transition: .5s;
     height: 211px;
     background: var(--transparent-purple);
     padding-top: 70px;
@@ -60,6 +61,7 @@
  }
  .work-overlay:hover {
     opacity: 100;
+    transition: .5s;
  }
 .work-overlay p {
     font-weight: 700;
@@ -77,10 +79,10 @@
 }
 .work-overlay a:hover {
     font-size: 30px;
-        background: linear-gradient(270deg, var(--orange-color) 10%, var(--purple-color) 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    background: linear-gradient(270deg, var(--orange-color) 10%, var(--purple-color) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .mywork-showmore {
     display: flex;
