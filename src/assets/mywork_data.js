@@ -29,7 +29,7 @@ const mywork_data = [
         w_no:3,
         w_name: "AirBnb Clone (UI)",
         w_desc: "Responsive front-end UI",
-        w_tech: "React, Vite, Tailwind CSS, Vercel, Google Fonts",
+        w_tech: "HTML, CSS, JavaScript",
         w_img: projectStayBnB,
         w_deploy_link: "https://hellokristinafaye.github.io/staybnb/",
         w_github_link: "https://github.com/hellokristinafaye/staybnb"
