@@ -49,12 +49,12 @@
  .work-overlay {
     text-align: center;
     position: relative;
-    top: -286px;
+    top: -288px;
     opacity: 0;
     transition: .3s;
-    height: 180px;
+    height: 192px;
     background: var(--transparent-purple);
-    padding-top: 100px;
+    padding-top: 90px;
     border-radius: 5px;
  }
  .work-overlay:hover {
