@@ -73,6 +73,7 @@
     color: var(--light-gray);
     text-decoration: none;
     transition: .3s;
+    cursor: pointer;
 }
 .work-overlay a:hover {
     font-size: 30px;
