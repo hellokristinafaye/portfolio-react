@@ -53,6 +53,13 @@
     color: var(--light-gray);
     text-decoration: none;
 }
+.work-overlay a:hover {
+    font-size: 30px;
+        background: linear-gradient(270deg, var(--orange-color) 10%, var(--purple-color) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
 .mywork-showmore {
     display: flex;
     gap: 15px;
