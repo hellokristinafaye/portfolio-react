@@ -36,24 +36,18 @@
     cursor: pointer;
     position: relative;
 }
-.mywork-container img:hover {
+.hover-test:hover {
     transform:scale(1.10);
     border: 4px solid var(--purple-color);
     border-radius: 10px;
     transition: 0.3s; 
 }
-/* overlay trial */
-/* .work-overlay {
-    position: relative;
-    top: 0;
-    z-index: 1;
-} */
  .work-overlay {
     text-align: center;
     position: relative;
-    left: 0;
     top: -200px;
     opacity: 0;
+    transition: .3s;
  }
  .work-overlay:hover {
     opacity: 100;

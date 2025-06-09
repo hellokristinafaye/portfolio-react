@@ -17,22 +17,22 @@ const MyWork = () => {
           return (
             <>
               <div className="work-container">
-                
-                <a href={work.w_deploy_link} target="_blank" className="">
-                  <img key={index} src={work.w_img} alt="" className="" />
-                </a>
-                <div className="work-overlay">
-                  <p className="">{work.w_name}</p>
-
+                <div className="hover-test">
                   <a href={work.w_deploy_link} target="_blank" className="">
-                    Live Demo
+                    <img key={index} src={work.w_img} alt="" className="" />
                   </a>
-                  <br className="" />
-                  <a href={work.w_github_link} target="_blank" className="">
-                    GitHub
-                  </a>
+                  <div className="work-overlay">
+                    <p className="">{work.w_name}</p>
+
+                    <a href={work.w_deploy_link} target="_blank" className="">
+                      Live Demo
+                    </a>
+                    <br className="" />
+                    <a href={work.w_github_link} target="_blank" className="">
+                      GitHub
+                    </a>
+                  </div>
                 </div>
-                
               </div>
               {/* overlay section (trial)*/}
             </>
