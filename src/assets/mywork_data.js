@@ -9,7 +9,8 @@ const mywork_data = [
     {
         w_no:1,
         w_name:"Grocery E-commerce",
-        w_img:projectGreenCartPic
+        w_img: projectGreenCartPic,
+        w_link: 
     },
     {
         w_no:2,

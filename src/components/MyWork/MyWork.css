@@ -32,6 +32,7 @@
     height: 280px;
     transition: .3s;
     cursor: pointer;
+    position: relative;
 }
 .mywork-container img:hover {
     transform:scale(1.10);
@@ -39,10 +40,12 @@
     border-radius: 10px;
     transition: 0.3s; 
 }
-.work-overlay {
-    position: absolute;
-    /* left: 0; */
-}
+/* overlay trial */
+/* .work-overlay {
+    position: relative;
+    top: 0;
+    z-index: 1;
+} */
 .mywork-showmore {
     display: flex;
     gap: 15px;
