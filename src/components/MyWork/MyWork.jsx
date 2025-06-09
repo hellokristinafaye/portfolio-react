@@ -18,8 +18,9 @@ const MyWork = () => {
             <>
               <div className="work-container">
                 <img key={index} src={work.w_img} alt="" className="" />
+              <div className="work-overlay">{work.w_name }</div>
               </div>
-            
+              {/* overlay section */}
             </>
           );
         })}
