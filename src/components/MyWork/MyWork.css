@@ -49,6 +49,9 @@
  .work-overlay {
     text-align: center;
  }
+.work-overlay p {
+    font-weight: 700;
+}
 .work-overlay a {
     color: var(--light-gray);
     text-decoration: none;

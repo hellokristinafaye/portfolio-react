@@ -19,8 +19,9 @@ const MyWork = () => {
               <div className="work-container">
                 <img key={index} src={work.w_img} alt="" className="" />
                 <div className="work-overlay">
-                  {work.w_name}
-                  <br className="" />
+                  
+                  <p className="">{work.w_name}</p>
+            
                   <a href={work.w_deploy_link} target="_blank" className="">
                     Live Demo
                   </a>
