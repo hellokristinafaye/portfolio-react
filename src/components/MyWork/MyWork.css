@@ -49,10 +49,13 @@
  .work-overlay {
     text-align: center;
     position: relative;
-    top: -200px;
+    top: -286px;
     opacity: 0;
     transition: .3s;
-    height: 275px;
+    height: 180px;
+    background: var(--dark-purple);
+    padding-top: 100px;
+    border-radius: 5px;
  }
  .work-overlay:hover {
     opacity: 100;
