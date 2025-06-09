@@ -36,6 +36,9 @@
     cursor: pointer;
     position: relative;
 }
+.hover-test {
+    height: 280px;
+}
 .hover-test:hover {
     transform:scale(1.10);
     border: 4px solid var(--purple-color);
