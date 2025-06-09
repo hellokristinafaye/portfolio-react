@@ -39,6 +39,7 @@
     border-radius: 10px;
     transition: 0.3s; 
 }
+
 .mywork-showmore {
     display: flex;
     gap: 15px;

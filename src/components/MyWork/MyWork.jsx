@@ -17,7 +17,9 @@ const MyWork = () => {
           return (
             <>
               <img key={index} src={work.w_img} alt="" className="" />
-              <div className="card-hover">Hello</div>
+              <div key={index} className="card-hover">
+                {work.w_name}
+              </div>
             </>
           );
         })}
