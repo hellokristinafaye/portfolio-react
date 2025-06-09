@@ -10,6 +10,8 @@
     --dark-grey: #32323c;
     --mid-grey: #A0A0A0;
     --dark-purple: #1F0016;
+    --transparent-purple: rgba(31, 0, 22, .5);
+
 }
 body {
     font-family: "Outfit", sans-serif;
