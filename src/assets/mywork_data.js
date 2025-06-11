@@ -58,8 +58,8 @@ const mywork_data = [
         w_desc: "Google Keep Clone with persistent data",
         w_tech: "HTML, CSS, JavaScript, Local Storage",
         w_img: projectPortfolio,
-        w_deploy_link: "https://hellokristinafaye.github.io/toDoList/",
-        w_github_link: "https://github.com/hellokristinafaye/toDoList"
+        w_deploy_link: "https://portfolio-react-eight-blush.vercel.app/",
+        w_github_link: "https://github.com/hellokristinafaye/portfolio-react"
     },
 ]
  
