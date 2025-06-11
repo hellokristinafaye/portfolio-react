@@ -55,10 +55,10 @@ const mywork_data = [
     {
         w_no:6,
         w_name: "Professional Portfolio",
-        w_desc: "Google Keep Clone with persistent data",
-        w_tech: "HTML, CSS, JavaScript, Local Storage",
+        w_desc: "Web Developer Portfolio",
+        w_tech: "React, vanilla CSS, Google Fonts, Vercel, JavaScript, Web3forms",
         w_img: projectPortfolio,
-        w_deploy_link: "https://portfolio-react-eight-blush.vercel.app/",
+        w_deploy_link: "https://portfolio-react-lake-kappa.vercel.app/",
         w_github_link: "https://github.com/hellokristinafaye/portfolio-react"
     },
 ]
