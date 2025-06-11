@@ -49,6 +49,7 @@
     transition: 0.3s; 
 }
  .work-overlay {
+    width: 500px;
     text-align: center;
     position: relative;
     top: -286px;
@@ -58,6 +59,7 @@
     background: var(--transparent-purple);
     padding-top: 70px;
     border-radius: 5px;
+    /* align-items: top; */
  }
  .work-overlay:hover {
     opacity: 100;

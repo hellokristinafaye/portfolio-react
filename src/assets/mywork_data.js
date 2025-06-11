@@ -19,7 +19,7 @@ const mywork_data = [
         w_no:2,
         w_name: "Netflix Clone",
         w_desc: "Dynamic app with embedded trailers via API",
-        w_tech: "React, Vite, Google Fonts, TheMovieDB web API",
+        w_tech: "React, Vite, Google Fonts, TheMovieDB API",
         w_img: projectNetflixClone,
         w_deploy_link: "https://netflix-clone-neon-eight-42.vercel.app/",
         w_github_link: "https://github.com/hellokristinafaye/netflixClone"
@@ -38,7 +38,7 @@ const mywork_data = [
         w_no:4,
         w_name: "Weather App",
         w_desc: "Weather report with light/dark toggle",
-        w_tech: " HTML, CSS, JavaScript, OpenWeather web API",
+        w_tech: " HTML, CSS, JavaScript, OpenWeather API",
         w_img: projectWeatherApp,
         w_deploy_link: "https://hellokristinafaye.github.io/weatherApp2/",
         w_github_link: "https://github.com/hellokristinafaye/weatherApp2"
@@ -56,7 +56,7 @@ const mywork_data = [
         w_no:6,
         w_name: "Professional Portfolio",
         w_desc: "Web Developer Portfolio",
-        w_tech: "React, vanilla CSS, Google Fonts, Vercel, JavaScript, Web3forms",
+        w_tech: "React, Vite, CSS, Google Fonts, Vercel, JavaScript, Web3forms",
         w_img: projectPortfolio,
         w_deploy_link: "https://portfolio-react-lake-kappa.vercel.app/",
         w_github_link: "https://github.com/hellokristinafaye/portfolio-react"
