@@ -54,8 +54,12 @@ const mywork_data = [
     },
     {
         w_no:6,
-        w_name:"Project Coming Soon!",
-        w_img:project6_img
+        w_name: "Professional Portfolio",
+        w_desc: "Google Keep Clone with persistent data",
+        w_tech: "HTML, CSS, JavaScript, Local Storage",
+        w_img: project6_img,
+        w_deploy_link: "https://hellokristinafaye.github.io/toDoList/",
+        w_github_link: "https://github.com/hellokristinafaye/toDoList"
     },
 ]
  
