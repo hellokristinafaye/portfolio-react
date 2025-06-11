@@ -3,7 +3,7 @@ import projectNetflixClone from '../assets/projectNetflixClone.png'
 import projectStayBnB from '../assets/projectStayBnB.png'
 import projectWeatherApp from '../assets/projectWeatherApp.png'
 import projectToDoList from '../assets/projectToDoList.png'
-import project6_img from '../assets/project_6.svg'
+import projectPortfolio from '../assets/projectPortfolio.png'
 
 const mywork_data = [
     {
@@ -57,7 +57,7 @@ const mywork_data = [
         w_name: "Professional Portfolio",
         w_desc: "Google Keep Clone with persistent data",
         w_tech: "HTML, CSS, JavaScript, Local Storage",
-        w_img: project6_img,
+        w_img: projectPortfolio,
         w_deploy_link: "https://hellokristinafaye.github.io/toDoList/",
         w_github_link: "https://github.com/hellokristinafaye/toDoList"
     },
