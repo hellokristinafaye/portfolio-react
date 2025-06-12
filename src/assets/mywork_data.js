@@ -1,10 +1,9 @@
 import projectGreenCartPic from '../assets/projectGreenCartPic.png'
-import projectNetflixClone from '../assets/projectNetflixClone.png'
 import projectStayBnB from '../assets/projectStayBnB.png'
 import projectWeatherApp from '../assets/projectWeatherApp.png'
 import projectToDoList from '../assets/projectToDoList.png'
 import projectPortfolio from '../assets/projectPortfolio.png'
-import Thumbnail from '../assets/Thumbnail.png'
+import projectNetflix from '../assets/projectNetflix.png'
 
 const mywork_data = [
     {
@@ -21,7 +20,7 @@ const mywork_data = [
         w_name: "Netflix Clone",
         w_desc: "Dynamic app with embedded trailers via API",
         w_tech: "React, Vite, Google Fonts, TheMovieDB API",
-        w_img: Thumbnail,
+        w_img: projectNetflix,
         w_deploy_link: "https://netflix-clone-neon-eight-42.vercel.app/",
         w_github_link: "https://github.com/hellokristinafaye/netflixClone"
         
