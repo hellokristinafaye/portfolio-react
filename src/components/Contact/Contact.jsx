@@ -5,6 +5,7 @@ import mail_icon from '../../assets/mail_icon.svg';
 import location_icon from '../../assets/location_icon.svg';
 import linkedin from '../../assets/linkedin.png';
 import GitHubIcon from '../../assets/GitHubIcon.png'
+import bluesky from '../../assets/bluesky.svg'
 
 const Contact = () => {
 // web3form code start
@@ -77,6 +78,18 @@ const onSubmit = async (event) => {
               <div className="contact-detail">
                 <img src={GitHubIcon} alt="" className="gitHub" />
                 <p className="">GitHub: helloKristinaFaye</p>
+              </div>
+            </a>
+
+            {/* BlueSky */}
+            <a
+              href="https://bsky.app/profile/hellokristinafaye.bsky.social"
+              target="_blank"
+              className="gitHub-link"
+            >
+              <div className="contact-detail">
+                <img src={bluesky} alt="" className="gitHub" />
+                <p className="">Blue Sky: @hellokristinafaye.bsky.social</p>
               </div>
             </a>
 
