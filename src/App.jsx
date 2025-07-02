@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from './components/NavBar/Navbar'
 import Hero from './components/Hero/Hero'
 import About from './components/About/About'
@@ -7,9 +7,19 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 
 const App = () => {
+
+  // LightDarkMode START
+const [theme, setTheme] = useState("dark");
+
+function handleToggleTheme() {
+  setTheme(theme === "light" ? "dark" : "light");
+  console.log(theme);
+}
+// LightDarkMode END
+
   return (
-    <div>
-      <Navbar />
+    <div className='dark'>
+      <Navbar  />
       <Hero />
       <About />
       <MyWork />

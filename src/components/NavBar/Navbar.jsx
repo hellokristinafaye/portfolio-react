@@ -34,10 +34,11 @@ function handleToggleTheme() {
         <span className="">K.</span>G
       </h1>
 
-      {/* LightDarkMode Trial */}
+      {/* LightDarkMode Trial START */}
       <button onClick={handleToggleTheme} className="">
         Change Theme
       </button>
+      {/* LightDarkMode Trial START */}
 
       <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
       <ul ref={menuRef} className="nav-menu">
