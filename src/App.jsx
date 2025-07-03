@@ -21,9 +21,9 @@ function handleToggleTheme() {
 
   return (
     <div data-theme={theme}>
-      <button onClick={handleToggleTheme} className="">
-        Theme Change
-      </button>
+      <a onClick={handleToggleTheme} className="theme-changer">
+        Change Theme
+      </a>
       <Navbar />
       <Hero />
       <About />
