@@ -5,6 +5,8 @@ import About from './components/About/About'
 import MyWork from './components/MyWork/MyWork'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import './index.css'
+import './App.css'
 
 const App = () => {
 
@@ -18,8 +20,11 @@ function handleToggleTheme() {
 // LightDarkMode END
 
   return (
-    <div className='dark'>
-      <Navbar  />
+    <div data-theme={theme}>
+      <button onClick={handleToggleTheme} className="">
+        Theme Change
+      </button>
+      <Navbar />
       <Hero />
       <About />
       <MyWork />
@@ -29,7 +34,7 @@ function handleToggleTheme() {
       {/* wanted to add a scroll to top button, will wait for future dev */}
       {/* <button className="to-top">^</button> */}
     </div>
-  )
+  );
 }
 
 export default App

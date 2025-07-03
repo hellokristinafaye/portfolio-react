@@ -35,9 +35,9 @@ function handleToggleTheme() {
       </h1>
 
       {/* LightDarkMode Trial START */}
-      <button onClick={handleToggleTheme} className="">
+      {/* <button onClick={handleToggleTheme} className="">
         Change Theme
-      </button>
+      </button> */}
       {/* LightDarkMode Trial START */}
 
       <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
