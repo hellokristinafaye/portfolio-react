@@ -13,7 +13,7 @@
 }
 
 [data-theme='dark'] {
-    --theme-btn: #161513;
+    --theme-btn: #6f4c4c;
     --theme-btn-text: white;
     --background-color: #ffefef;
     --white-color: #ca8787;
@@ -35,4 +35,9 @@
 .theme-changer {
     background: var(--theme-btn);
     color: var(--theme-btn-text);
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 40px;
+    margin: 10px;
+    cursor:pointer;
 }
