@@ -19,16 +19,16 @@ const Navbar = () => {
     menuRef.current.style.right = "-350px";
   }
 // LightDarkMode START
-const [theme, setTheme] = useState("dark");
+// const [theme, setTheme] = useState("dark");
 
-function handleToggleTheme() {
-  setTheme(theme === "light" ? "dark" : "light");
-  console.log(theme);
-}
+// function handleToggleTheme() {
+//   setTheme(theme === "light" ? "dark" : "light");
+//   console.log(theme);
+// }
 // LightDarkMode END
 
   return (
-    <div className="navbar" data-theme={theme}>
+    <div className="navbar" >
       {/* <img src={logo} alt="" className="" /> */}
       <h1 className="custom-logo">
         <span className="">K.</span>G

@@ -11,10 +11,12 @@
 }
 
 [data-theme='dark'] {
-    --background-color: #fff;
-    --white-color: pink;
+    --background-color: #efb9e8;
+    --white-color: grey;
 }
 
 * {
+    transition: all 0.5s;
     background: var(--background-color);
+    color: var(--white-color)
 }
