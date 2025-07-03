@@ -17,7 +17,9 @@ const App = () => {
   const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
   const [theme, setTheme] = useLocalStorage(
     "theme",
-    defaultDark ? "dark" : "light"
+    // Next line would match the user's browser. Will use in the future.
+    // defaultDark ? "dark" : "light"
+    "dark"
   );
 
 function handleToggleTheme() {
