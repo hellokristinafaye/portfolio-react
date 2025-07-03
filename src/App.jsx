@@ -8,14 +8,14 @@ import Footer from './components/Footer/Footer'
 import './index.css'
 import './App.css'
 import useLocalStorage from "use-local-storage";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 
 const App = () => {
 
   // LightDarkMode START
 
-  const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  // const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
   const [theme, setTheme] = useLocalStorage(
     "theme",
     // Next line would match the user's browser. Will use in the future.
