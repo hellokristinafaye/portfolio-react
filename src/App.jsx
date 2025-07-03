@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer'
 import './index.css'
 import './App.css'
 import useLocalStorage from "use-local-storage";
+import { Analytics } from "@vercel/analytics/next";
 
 
 const App = () => {
@@ -33,6 +34,7 @@ function handleToggleTheme() {
       <a onClick={handleToggleTheme} className="theme-changer">
         Change Theme
       </a>
+      <Analytics />
       <Navbar />
       <Hero />
       <About />
