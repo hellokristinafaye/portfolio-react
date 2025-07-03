@@ -1,5 +1,6 @@
 :root {
     --theme-btn: #ffefef;
+    --theme-btn-text: #ca8787;
     --background-color: #161513;
     --white-color: white;
     --orange-color: #DA7C25;
@@ -13,6 +14,7 @@
 
 [data-theme='dark'] {
     --theme-btn: #161513;
+    --theme-btn-text: white;
     --background-color: #ffefef;
     --white-color: #ca8787;
     --orange-color: #f3d0d7;
@@ -32,4 +34,5 @@
 
 .theme-changer {
     background: var(--theme-btn);
+    color: var(--theme-btn-text);
 }
