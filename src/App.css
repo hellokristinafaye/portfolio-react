@@ -1,4 +1,4 @@
-:root {
+[data-theme='dark'] {
     --theme-btn: #ffefef;
     --theme-btn-text: #ca8787;
     --background-color: #161513;
@@ -12,7 +12,7 @@
     --transparent-purple: rgba(31, 0, 22, .75);
 }
 
-[data-theme='dark'] {
+ :root {
     --theme-btn: #6f4c4c;
     --theme-btn-text: white;
     --background-color: #ffefef;

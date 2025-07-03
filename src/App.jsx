@@ -7,11 +7,19 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './index.css'
 import './App.css'
+import useLocalStorage from "use-local-storage";
+
 
 const App = () => {
 
   // LightDarkMode START
-const [theme, setTheme] = useState("dark");
+
+  const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const [theme, setTheme] = useLocalStorage(
+    "theme",
+    defaultDark ? "dark" : "light"
+  );
+// const [theme, setTheme] = useState("dark");
 
 function handleToggleTheme() {
   setTheme(theme === "light" ? "dark" : "light");
