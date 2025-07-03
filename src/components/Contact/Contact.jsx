@@ -1,41 +1,40 @@
 import React from "react";
 import "./Contact.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import mail_icon from '../../assets/mail_icon.svg';
-import location_icon from '../../assets/location_icon.svg';
-import linkedin from '../../assets/linkedin.png';
-import GitHubIcon from '../../assets/GitHubIcon.png'
-import bluesky from '../../assets/bluesky.svg'
+import mail_icon from "../../assets/mail_icon.svg";
+import location_icon from "../../assets/location_icon.svg";
+import linkedin from "../../assets/linkedin.png";
+import GitHubIcon from "../../assets/GitHubIcon.png";
+import bluesky from "../../assets/bluesky.svg";
 
 const Contact = () => {
-// web3form code start
-const [result, setResult] = React.useState("");
+  // web3form code start
+  const [result, setResult] = React.useState("");
 
-const onSubmit = async (event) => {
-  event.preventDefault();
-  setResult("Sending....");
-  const formData = new FormData(event.target);
-  
-  formData.append("access_key", "3ce93469-269d-4b12-a1cb-ba66c92a0ec2");
-  
-  const response = await fetch("https://api.web3forms.com/submit", {
-    method: "POST",
-    body: formData,
-  });
-  
-  const data = await response.json();
-  // web3form code end
-  
-  if (data.success) {
-    setResult("Form Submitted Successfully");
-    alert("Thanks for your message! I'll be in touch soon!")
-    event.target.reset();
-  } else {
-    console.log("Error", data);
-    setResult(data.message);
-  }
-};
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
 
+    formData.append("access_key", "3ce93469-269d-4b12-a1cb-ba66c92a0ec2");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+    // web3form code end
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      alert("Thanks for your message! I'll be in touch soon!");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
 
   return (
     <div id="contact" className="contact">
@@ -52,10 +51,14 @@ const onSubmit = async (event) => {
           </p>
           <div className="contact-details">
             {/* email address */}
-            <div className="contact-detail">
-              <img src={mail_icon} alt="" className="" />
-              <p className="">helloKristinaFaye@gmail.com</p>
-            </div>
+
+            <a
+              href="mailto:helloKristinaFaye@gmail.com" target="_blank" className="">
+              <div className="contact-detail">
+                <img src={mail_icon} alt="" className="" />
+                <p className="">helloKristinaFaye@gmail.com</p>
+              </div>
+            </a>
 
             {/* Linked In */}
             <a

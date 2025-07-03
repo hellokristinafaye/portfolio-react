@@ -1,0 +1,44 @@
+[data-theme='dark'] {
+    --theme-btn: #ffefef;
+    --theme-btn-text: #ca8787;
+    --background-color: #161513;
+    --white-color: white;
+    --orange-color: #DA7C25;
+    --purple-color: rgb(243, 10, 228);
+    --lt-grey: #D8D8D8;
+    --dark-grey: #32323c;
+    --mid-grey: #A0A0A0;
+    --dark-purple: #1F0016;
+    --transparent-purple: rgba(31, 0, 22, .75);
+}
+
+ :root {
+    --theme-btn: #6f4c4c;
+    --theme-btn-text: white;
+    --background-color: #ffefef;
+    --white-color: #ca8787;
+    --orange-color: #f3d0d7;
+    /* --purple-color: #cbcdc4; */
+    --purple-color: #c1cfa1;
+    --lt-grey: #ca8787;
+    --dark-grey: #f0ebe3;
+    --mid-grey: #ca8787;
+    --dark-purple: #1F0016;
+    --transparent-purple: rgba(31, 0, 22, .75);
+}
+
+* {
+    transition: all 0.5s;
+    background: var(--background-color);
+    color: var(--white-color)
+}
+
+.theme-changer {
+    background: var(--theme-btn);
+    color: var(--theme-btn-text);
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 40px;
+    margin: 10px;
+    cursor:pointer;
+}

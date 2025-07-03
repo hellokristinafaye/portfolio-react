@@ -18,14 +18,36 @@ const Navbar = () => {
   const closeMenu = () => {
     menuRef.current.style.right = "-350px";
   }
+// LightDarkMode START
+// const [theme, setTheme] = useState("dark");
+
+// function handleToggleTheme() {
+//   setTheme(theme === "light" ? "dark" : "light");
+//   console.log(theme);
+// }
+// LightDarkMode END
 
   return (
-    <div className="navbar">
+    <div className="navbar" >
       {/* <img src={logo} alt="" className="" /> */}
-      <h1 className="custom-logo"><span className="">K.</span>G</h1>
+      <h1 className="custom-logo">
+        <span className="">K.</span>G
+      </h1>
+
+      {/* LightDarkMode Trial START */}
+      {/* <button onClick={handleToggleTheme} className="">
+        Change Theme
+      </button> */}
+      {/* LightDarkMode Trial START */}
+
       <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
       <ul ref={menuRef} className="nav-menu">
-      <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />
+        <img
+          src={menu_close}
+          onClick={closeMenu}
+          alt=""
+          className="nav-mob-close"
+        />
         <li className="">
           <AnchorLink className="anchor-link" href="#home">
             <p onClick={() => setMenu("home")} className="">

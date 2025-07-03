@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+
+
+}
+
+:root {
     --background-color: #161513;
     --white-color: white;
     --orange-color: #DA7C25;
@@ -11,14 +16,22 @@
     --mid-grey: #A0A0A0;
     --dark-purple: #1F0016;
     --transparent-purple: rgba(31, 0, 22, .75);
-
 }
+
+[data-theme='dark'] {
+    --background-color: #fff;
+    --white-color: pink;
+}
+
+
+
 body {
     font-family: "Outfit", sans-serif;
     height: 100vh;
     background: var(--background-color);
     color: var(--white-color);
 }
+
 /* .to-top {
     background: var(--dark-purple);
     color: var(--mid-grey);

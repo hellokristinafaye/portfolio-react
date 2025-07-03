@@ -47,16 +47,18 @@
 .hero-resume {
     padding: 25px 75px;
     border-radius: 50px;
-    border: 2px solid #FFF;
+    border: 2px solid var(--white-color);
     cursor: pointer;
     text-decoration: none;
-    color:white;
+    color:var(--white-color);
 }
 .hero-connect:hover{
     border: 2px solid white;
+    color: white;
 }
 .hero-resume:hover{
     border-color: var(--purple-color);
+    color: var(--purple-color);
 }
 
 @media(max-width: 768px) {
