@@ -18,9 +18,9 @@ const MyWork = () => {
             <>
               <div className="work-container">
                 <div className="hover-card">
-                  <a href={work.w_deploy_link} target="_blank" className="">
+                  {/* <a href={work.w_deploy_link} target="_blank" className=""> */}
                     <img key={index} src={work.w_img} alt="" className="" />
-                  </a>
+                  {/* </a> */}
                   <div className="work-overlay">
                     <p className="">{work.w_name}</p>
                     <p className="work-desc">{work.w_desc}</p>
