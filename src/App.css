@@ -11,8 +11,15 @@
 }
 
 [data-theme='dark'] {
-    --background-color: #efb9e8;
-    --white-color: grey;
+    --background-color: #ffefef;
+    --white-color: #ca8787;
+    --orange-color: #f3d0d7;
+    --purple-color: #c1cfa1;
+    --lt-grey: #D8D8D8;
+    --dark-grey: #ca8787;
+    --mid-grey: #ca8787;
+    --dark-purple: #1F0016;
+    --transparent-purple: rgba(31, 0, 22, .75);
 }
 
 * {
