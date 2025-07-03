@@ -19,7 +19,6 @@ const App = () => {
     "theme",
     defaultDark ? "dark" : "light"
   );
-// const [theme, setTheme] = useState("dark");
 
 function handleToggleTheme() {
   setTheme(theme === "light" ? "dark" : "light");
